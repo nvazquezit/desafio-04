@@ -133,3 +133,26 @@ button {
    background-color: rgb(33, 66, 55);
    color: rgb(143, 203, 183);
 }
+
+.formulario .inputs-1:focus {
+    border: 2px solid rgb(11, 23, 19);
+    background-color: rgb(87, 146, 126);
+}
+
+.formulario select:focus {
+    border: 2px solid black;
+}
+
+.formulario textarea:focus {
+    background-color: rgb(87, 146, 126);
+}
+
+.field-22 .linea:focus {
+    border: 2px solid rgb(11, 23, 19);
+    background-color: rgb(87, 146, 126);
+}
+
+.buttoms button:focus {
+    background-color: rgb(143, 203, 183);
+    color: rgb(33, 66, 55);
+}
