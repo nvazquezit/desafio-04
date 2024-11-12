@@ -1,1 +1,1 @@
-    import './style-peliculas.css'
+    import './style-futurismo.css'
