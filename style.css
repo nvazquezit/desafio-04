@@ -119,3 +119,17 @@ div {
     font-size: 15px;
     font-weight: bold;
 }
+
+.buttoms {
+    text-align: center;
+}
+
+button {
+    padding: 12px;
+    margin: 10px;
+    font-family:'Roboto', sans-serif;
+    border: solid 1px;
+   border-color: rgb(91, 143, 126);
+   background-color: rgb(33, 66, 55);
+   color: rgb(143, 203, 183);
+}
