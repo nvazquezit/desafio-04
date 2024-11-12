@@ -2,6 +2,17 @@ body {
     background-color: rgb(36, 36, 36);
 }
 
+hr {
+    width: 25%;
+    margin: 20px auto;
+    border: solid 18px;
+    border-style: dotted;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: rgb(153, 203, 186);
+}
+
 h1 {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -28,7 +39,7 @@ fieldset {
 }
 
 .field-1 {
-    margin: 50px;
+    margin: 30px;
 }
 
 
@@ -70,6 +81,8 @@ div {
 
 .field-2 {
     margin: 30px;
+}
+.field-22 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -79,4 +92,30 @@ div {
     margin: 10px auto;
     width: 400px;
     padding: 5px;
+}
+
+.field-3 {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parrafo-1 {
+    font-size: 12px;
+}
+
+.last-div {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 0;
+}
+
+.last-field {
+    background: none;
+    border: none;
+}
+
+.final {
+    font-size: 15px;
+    font-weight: bold;
 }
