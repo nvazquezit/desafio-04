@@ -4,27 +4,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <title>Afiliación</title>
 </head>
 
 <body>
+  <div class="margin-title">
   <h1>Vení al Gym! 💪🏻</h1>
+</div>
 
+<div class="field-1">
   <fieldset>
-    <legend>🙋‍♂️ Datos personales 👀</legend>
+    <legend>🙋DATOS PERSONALES👀</legend>
 
-    <form action="#" method="GET">
+    <form action="https://postman-echo.com/post" method="POST">
       <label for="lbl-nombre">Nombre:*</label>
       <div>
-        <input type="text" name="nombre" id="lbl-nombre" required>
+        <input class="inputs-1" type="text" name="nombre" id="lbl-nombre" required>
       </div>
       <label for="lbl-apellido">Apellido:*</label>
       <div>
-        <input type="text" name="apellido" id="lbl-apellido" required>
+        <input class="inputs-1" type="text" name="apellido" id="lbl-apellido" required>
       </div>
       <label for="lbl-documento">Documento:*</label>
       <div>
-        <input type="number" name="nombre" id="lbl-documento" required>
+        <input class="inputs-1" type="number" name="nombre" id="lbl-documento" required>
       </div>
       <label for="lbl-nacionalidad">Nacionalidad:*</label>
       <div>
@@ -44,35 +53,39 @@
       </div>
       <label for="lbl-nombre">Contanos un poco de vos...</label>
       <div>
-        <textarea name="descrip" id="" cols="25" rows="5"></textarea>
+        <textarea name="descrip" id="" cols="20" rows="5"></textarea>
       </div>
 
       <label for="lbl-sexo">Sexo:*</label>
       <div>
         <input type="radio" name="sexo" value="masculino" required>
-        <label for="">Masculino</label>
+        <label class="sexo" for="">Masculino</label>
         <input type="radio" name="sexo" value="femenino" required>
-        <label for="">Femenino</label>
+        <label class="sexo" for="">Femenino</label>
         <input type="radio" name="sexo" value="otros" required>
-        <label for="">Otro</label>
+        <label class="sexo" for="">Otro</label>
       </div>
   </fieldset>
+</div>
+  <hr>
 
   <fieldset>
-    <legend>📱Datos de Contacto 📧</legend>
-    <div>
-      <label for="lbl-telefono">Telefono</label>
-      <input type="tel" placeholder="Código de área y número" id="lbl-telefono">
+    <legend>📱DATOS DE CONTACTO📧</legend>
+    <div class="field-2">
+      <label for="lbl-telefono">Telefono:</label>
+      <input class="linea" type="tel" placeholder="Código de área y número" id="lbl-telefono">
     </div>
-    <div></div>
+    <div class="field-2">
     <label for="lbl-email">Dirección de correo electrónico:*</label>
-    <input type="email" required placeholder="Ej: mail@gmail.com" id="lbl-email">
+    <input class="linea" type="email" required placeholder="Ej: mail@gmail.com" id="lbl-email">
     </div>
 
   </fieldset>
 
+  <hr>
+
   <fieldset>
-    <legend>🚴🏻 Actividades 🤸🏻</legend>
+    <legend>🚴🏻ACTIVIDADES🤸🏻</legend>
 
     <p>Por favor, indicá cuales actividades te interesan.</p>
 
