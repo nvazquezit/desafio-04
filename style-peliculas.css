@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(36, 36, 36);
+    background-image:url(/img/rocky-balboa.webp);
+    background-size: cover;
 }
 
 hr {
@@ -10,28 +11,30 @@ hr {
     border-left: none;
     border-right: none;
     border-bottom: none;
-    border-color: rgb(153, 203, 186);
+    border-color: rgb(203, 164, 153);
 }
 
 h1 {
-    color: white;
+    color: rgb(215, 34, 34);
     font-family: 'Poppins', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
     text-align: center;
     border: 15px solid;
-    border-color: rgb(91, 143, 126);
-    border-left-color: rgb(36, 36, 36);
-    border-right-color: rgb(36, 36, 36);
+    border-color: rgb(187, 103, 103);
+    border-left-color: rgb(53, 23, 23);
+    border-right-color: rgb(72, 31, 31);
     margin: 50px auto;
     width: 600px;
+    border-style: solid;
+    background-color: rgb(216, 206, 206);
 }
 
 fieldset {
-    background-color: rgb(153, 203, 186);
+    background-color: rgb(216, 206, 206);
     width: 600px;
     margin: auto;
     border: 2px solid;
-    border-color:rgb(91, 143, 126);   
+    border-color:rgb(53, 23, 23);   
 }
 
 .field-1 {
@@ -40,7 +43,7 @@ fieldset {
 
 
 legend {
-    background-color: rgb(46, 94, 78);
+    background-color: rgb(94, 46, 46);
     font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: bold;
@@ -98,7 +101,7 @@ div {
 }
 
 .last-div {
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     text-align: left;
     margin-left: 0;
@@ -123,14 +126,15 @@ button {
     margin: 10px;
     font-family:'Roboto', sans-serif;
     border: solid 1px;
-   border-color: rgb(91, 143, 126);
-   background-color: rgb(33, 66, 55);
-   color: rgb(143, 203, 183);
+   border-color: rgb(143, 91, 91);
+   background-color: rgb(66, 33, 33);
+   color: rgb(227, 207, 207);
 }
 
 .formulario .inputs-1:focus {
-    border: 2px solid rgb(11, 23, 19);
-    background-color: rgb(87, 146, 126);
+    border: 2px solid rgb(23, 11, 11);
+    background-color: rgb(146, 87, 87);
+    color: whitesmoke;
 }
 
 .formulario select:focus {
@@ -138,15 +142,17 @@ button {
 }
 
 .formulario textarea:focus {
-    background-color: rgb(87, 146, 126);
+    background-color: rgb(146, 87, 87);
+    color: whitesmoke;
 }
 
 .field-22 .linea:focus {
     border: 2px solid rgb(11, 23, 19);
-    background-color: rgb(87, 146, 126);
+    background-color: rgb(146, 87, 87);
+    color: whitesmoke;
 }
 
 .buttoms button:focus {
-    background-color: rgb(143, 203, 183);
-    color: rgb(33, 66, 55);
+    background-color: rgb(203, 143, 143);
+    color: rgb(66, 33, 33);
 }
